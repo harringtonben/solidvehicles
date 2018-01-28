@@ -21,7 +21,7 @@ namespace solidvehicles.Vehicles
 
         public void Drive()
         {
-            Console.WriteLine($"The {Name} screams down the highway ata crazy top speed of {MaxLandSpeed}.");
+            Console.WriteLine($"The {Name} screams down the highway at a crazy top speed of {MaxLandSpeed} mph.");
         }
 
         public void Fly()
