@@ -3,6 +3,7 @@ namespace solidvehicles.Vehicles
 {
     interface IVehicle
     {
+        string Name { get; set; }
         // an int property called Wheels
         int Wheels { get; set; }
         // an int property called Doors
